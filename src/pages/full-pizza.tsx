@@ -22,7 +22,7 @@ const FullPizza = (): JSX.Element => {
         setPizza(data);
       } catch (error) {
         alert("Сталася помилка під час отримання даних!");
-        navigate("/");
+        navigate("/vincento-pizza");
       }
     }
 
@@ -39,7 +39,7 @@ const FullPizza = (): JSX.Element => {
         <img src={pizza.imageUrl} alt={pizza.title} />
         <h2>{pizza.title}</h2>
         <h4>{pizza.price} грн.</h4>
-        <Link to="/">
+        <Link to="/vincento-pizza">
           <button className="button button--outline button--add">
             <span>Назад</span>
           </button>

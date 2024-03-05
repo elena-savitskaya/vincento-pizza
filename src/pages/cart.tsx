@@ -117,7 +117,7 @@ const Cart: React.FC = (): JSX.Element => {
           </div>
           <div className="cart__bottom-buttons">
             <Link
-              to="/"
+              to="/vincento-pizza"
               className="button button--outline button--add go-back-btn"
             >
               <svg

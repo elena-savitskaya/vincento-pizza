@@ -16,10 +16,10 @@ const NotFound = React.lazy(() => import("./pages/not-found"));
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<MainLayout />}>
-        <Route path="/" element={<Home />} />
+      <Route path="/vincento-pizza" element={<MainLayout />}>
+        <Route path="/vincento-pizza" element={<Home />} />
         <Route
-          path="cart"
+          path="/vincento-pizza/cart"
           element={
             <Suspense fallback={<div>Кошик завантажується...</div>}>
               <Cart />
@@ -27,7 +27,7 @@ function App() {
           }
         />
         <Route
-          path="pizza/:id"
+          path="/vincento-pizza/pizza/:id"
           element={
             <Suspense fallback={<div>Завантаження триває...</div>}>
               <FullPizza />

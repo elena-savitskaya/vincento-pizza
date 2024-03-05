@@ -27,7 +27,7 @@ export const Header = (): JSX.Element => {
   return (
     <div className="header">
       <div className="container">
-        <Link to="/">
+        <Link to="/vincento-pizza">
           <div className="header__logo">
             <img width="38" src={logoSvg} alt="Pizza logo" />
             <div>
@@ -36,10 +36,10 @@ export const Header = (): JSX.Element => {
             </div>
           </div>
         </Link>
-        {location.pathname !== "/cart" && <Search />}
+        {location.pathname !== "/vincento-pizza/cart" && <Search />}
         <div className="header__cart">
-          {location.pathname !== "/cart" && (
-            <Link to="/cart" className="button button--cart">
+          {location.pathname !== "/vincento-pizza/cart" && (
+            <Link to="/vincento-pizza/cart" className="button button--cart">
               <span>{totalPrice} грн.</span>
               <div className="button__delimiter"></div>
               <img src={cart} alt="Pizza logo" />
