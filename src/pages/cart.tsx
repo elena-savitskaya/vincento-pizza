@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { CartItem, CartEmpty } from "../components";
 import { selectCart } from "../redux/cart/selectors";
 import { clearItems } from "../redux/cart/slice";
+import { ModalWindow } from "../components/modal-window/modal-window";
 
 const Cart: React.FC = (): JSX.Element => {
+  const [modalOpen, setModalOpen] = useState<boolean>(false);
   const dispatch = useDispatch();
   const { totalPrice, items } = useSelector(selectCart);
 
@@ -15,9 +17,16 @@ const Cart: React.FC = (): JSX.Element => {
   );
 
   const onClickClear = () => {
-    if (window.confirm("Очистити кошик?")) {
-      dispatch(clearItems());
-    }
+    setModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setModalOpen(false);
+  };
+
+  const handleClickClear = () => {
+    dispatch(clearItems());
+    setModalOpen(false);
   };
 
   if (!totalPrice) {
@@ -144,6 +153,29 @@ const Cart: React.FC = (): JSX.Element => {
           </div>
         </div>
       </div>
+      <ModalWindow
+        open={modalOpen}
+        toggle={() => setModalOpen(!modalOpen)}
+        handleClose={handleCloseModal}
+      >
+        <div className="cart__item-modal">
+          <p>Очистити кошик?</p>
+          <div className="cart__item-buttons">
+            <button
+              onClick={handleClickClear}
+              className="button button--outline"
+            >
+              Так
+            </button>
+            <button
+              onClick={handleCloseModal}
+              className="button button--outline"
+            >
+              Скасувати
+            </button>
+          </div>
+        </div>
+      </ModalWindow>
     </div>
   );
 };
