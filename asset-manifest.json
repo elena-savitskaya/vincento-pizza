@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vincento-pizza/static/css/main.f855e6bc.css",
+    "main.js": "/vincento-pizza/static/js/main.059847ec.js",
+    "static/js/453.7063d8dc.chunk.js": "/vincento-pizza/static/js/453.7063d8dc.chunk.js",
+    "static/media/logo.svg": "/vincento-pizza/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/vincento-pizza/index.html",
+    "main.f855e6bc.css.map": "/vincento-pizza/static/css/main.f855e6bc.css.map",
+    "main.059847ec.js.map": "/vincento-pizza/static/js/main.059847ec.js.map",
+    "453.7063d8dc.chunk.js.map": "/vincento-pizza/static/js/453.7063d8dc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.059847ec.js"
+  ]
+}
