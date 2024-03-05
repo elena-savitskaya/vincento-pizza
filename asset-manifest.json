@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/vincento-pizza/static/css/main.21472475.css",
-    "main.js": "/vincento-pizza/static/js/main.208d4f4a.js",
-    "static/js/453.2a815cd6.chunk.js": "/vincento-pizza/static/js/453.2a815cd6.chunk.js",
-    "static/js/485.8a8922a1.chunk.js": "/vincento-pizza/static/js/485.8a8922a1.chunk.js",
+    "main.js": "/vincento-pizza/static/js/main.96423e9e.js",
+    "static/js/453.e517bfe0.chunk.js": "/vincento-pizza/static/js/453.e517bfe0.chunk.js",
+    "static/js/485.9b19b973.chunk.js": "/vincento-pizza/static/js/485.9b19b973.chunk.js",
     "static/js/363.a0386577.chunk.js": "/vincento-pizza/static/js/363.a0386577.chunk.js",
     "static/media/empty-cart.png": "/vincento-pizza/static/media/empty-cart.db905d1f4b063162f25b.png",
     "static/media/pizza-logo.svg": "/vincento-pizza/static/media/pizza-logo.56ac87032d8f6fdf863326acd06c0d97.svg",
     "static/media/cart.svg": "/vincento-pizza/static/media/cart.532b4ecd96e51cfebfe0e7207afdca84.svg",
     "index.html": "/vincento-pizza/index.html",
     "main.21472475.css.map": "/vincento-pizza/static/css/main.21472475.css.map",
-    "main.208d4f4a.js.map": "/vincento-pizza/static/js/main.208d4f4a.js.map",
-    "453.2a815cd6.chunk.js.map": "/vincento-pizza/static/js/453.2a815cd6.chunk.js.map",
-    "485.8a8922a1.chunk.js.map": "/vincento-pizza/static/js/485.8a8922a1.chunk.js.map",
+    "main.96423e9e.js.map": "/vincento-pizza/static/js/main.96423e9e.js.map",
+    "453.e517bfe0.chunk.js.map": "/vincento-pizza/static/js/453.e517bfe0.chunk.js.map",
+    "485.9b19b973.chunk.js.map": "/vincento-pizza/static/js/485.9b19b973.chunk.js.map",
     "363.a0386577.chunk.js.map": "/vincento-pizza/static/js/363.a0386577.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21472475.css",
-    "static/js/main.208d4f4a.js"
+    "static/js/main.96423e9e.js"
   ]
 }
