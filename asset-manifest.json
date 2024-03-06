@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/vincento-pizza/static/css/main.dcdc3b58.css",
-    "main.js": "/vincento-pizza/static/js/main.d51cce37.js",
-    "static/js/453.cf3afb48.chunk.js": "/vincento-pizza/static/js/453.cf3afb48.chunk.js",
+    "main.css": "/vincento-pizza/static/css/main.a2c89328.css",
+    "main.js": "/vincento-pizza/static/js/main.57ac71cd.js",
+    "static/js/453.c471af83.chunk.js": "/vincento-pizza/static/js/453.c471af83.chunk.js",
     "static/js/485.9b19b973.chunk.js": "/vincento-pizza/static/js/485.9b19b973.chunk.js",
-    "static/js/363.a0386577.chunk.js": "/vincento-pizza/static/js/363.a0386577.chunk.js",
+    "static/js/363.6cd54acf.chunk.js": "/vincento-pizza/static/js/363.6cd54acf.chunk.js",
     "static/media/empty-cart.png": "/vincento-pizza/static/media/empty-cart.db905d1f4b063162f25b.png",
     "static/media/pizza-logo.svg": "/vincento-pizza/static/media/pizza-logo.56ac87032d8f6fdf863326acd06c0d97.svg",
     "static/media/cart.svg": "/vincento-pizza/static/media/cart.532b4ecd96e51cfebfe0e7207afdca84.svg",
     "index.html": "/vincento-pizza/index.html",
-    "main.dcdc3b58.css.map": "/vincento-pizza/static/css/main.dcdc3b58.css.map",
-    "main.d51cce37.js.map": "/vincento-pizza/static/js/main.d51cce37.js.map",
-    "453.cf3afb48.chunk.js.map": "/vincento-pizza/static/js/453.cf3afb48.chunk.js.map",
+    "main.a2c89328.css.map": "/vincento-pizza/static/css/main.a2c89328.css.map",
+    "main.57ac71cd.js.map": "/vincento-pizza/static/js/main.57ac71cd.js.map",
+    "453.c471af83.chunk.js.map": "/vincento-pizza/static/js/453.c471af83.chunk.js.map",
     "485.9b19b973.chunk.js.map": "/vincento-pizza/static/js/485.9b19b973.chunk.js.map",
-    "363.a0386577.chunk.js.map": "/vincento-pizza/static/js/363.a0386577.chunk.js.map"
+    "363.6cd54acf.chunk.js.map": "/vincento-pizza/static/js/363.6cd54acf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcdc3b58.css",
-    "static/js/main.d51cce37.js"
+    "static/css/main.a2c89328.css",
+    "static/js/main.57ac71cd.js"
   ]
 }
