@@ -7,6 +7,8 @@ import {
   Skeleton,
   Pagination,
 } from "../components";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { useAppDispatch } from "../redux/store";
 import { selectFilter } from "../redux/filter/selectors";
 import { selectPizzaData } from "../redux/pizza/selectors";
@@ -76,7 +78,7 @@ export const Home = (): JSX.Element => {
           {status === "loading" ? skeletons : pizzas}
         </div>
       )}
-
+      <ToastContainer />
       <Pagination currentPage={currentPage} onChangePage={onChangePage} />
     </div>
   );

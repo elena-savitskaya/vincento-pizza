@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { selectCartItemById } from "../../redux/cart/selectors";
 import { CartItem } from "../../redux/cart/types";
 import { addItem } from "../../redux/cart/slice";
+import { showSuccessToast } from "../toasts/toasts";
 
 const typeNames = ["тонке", "пухке"];
 
@@ -63,6 +64,7 @@ export const PizzaBlock = ({
       count: 0,
     };
     dispatch(addItem(item));
+    showSuccessToast(`Пица "${title}" успішно додана до кошика!`);
   };
 
   return (
