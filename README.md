@@ -24,7 +24,7 @@ Follow the steps below to get the project running on your local machine.
 ```bash
 git clone https://github.com/elena-savitskaya/vincento-pizza.git
 ```
-cd evofitness
+cd vincento-pizza
 
 ### 2. Install Dependencies
 Run the following command to install all the required dependencies:
