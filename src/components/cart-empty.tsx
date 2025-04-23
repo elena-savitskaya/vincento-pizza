@@ -5,7 +5,7 @@ import cartEmptyImg from "../assets/img/empty-cart.png";
 export const CartEmpty = (): JSX.Element => (
   <div className="cart cart--empty">
     <h2>
-      Корзина пустая <span>😕</span>
+      Кошик пустий <span>😕</span>
     </h2>
     <p>
       Ви нічого не замовили.
